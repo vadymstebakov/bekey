@@ -1,0 +1,201 @@
+* {
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+body {
+  color: #1b3979;
+  font-size: 17px;
+}
+body img {
+  max-width: 100%;
+  max-height: auto;
+  width: auto\9;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+body a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+body a:focus {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+}
+.offcanvas-toggle .icon-bar {
+  background: #0d2353;
+}
+.navbar-toggle {
+  margin-right: 0;
+  padding: 9px 0px;
+  z-index: 3;
+}
+.navbar-toggle .icon-bar {
+  width: 35px;
+  height: 4px;
+}
+.offcanvas-toggle.is-open .icon-bar:first-child {
+  -webkit-transform: rotate(45deg) translate(4px, 5px);
+      -ms-transform: rotate(45deg) translate(4px, 5px);
+          transform: rotate(45deg) translate(4px, 5px);
+}
+.offcanvas-toggle.is-open .icon-bar:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translate(6px, -8px);
+      -ms-transform: rotate(-45deg) translate(6px, -8px);
+          transform: rotate(-45deg) translate(6px, -8px);
+}
+.navbar-offcanvas {
+  overflow: hidden;
+  height: auto !important;
+  max-width: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(38%, #1b3979), color-stop(38%, #0d2353));
+  background: -webkit-linear-gradient(top, #1b3979 38%, #0d2353 38%);
+  background: -o-linear-gradient(top, #1b3979 38%, #0d2353 38%);
+  background: linear-gradient(to bottom, #1b3979 38%, #0d2353 38%);
+  background: #0d2353\9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.list-group__logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.list-group__menu {
+  margin-bottom: 35px;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.list-group__menu li {
+  margin-bottom: 20px;
+  display: block;
+}
+form {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+::-webkit-input-placeholder {
+  color: #3d4877;
+}
+::-moz-placeholder {
+  color: #3d4877;
+}
+:-moz-placeholder {
+  color: #3d4877;
+}
+:-ms-input-placeholder {
+  color: #3d4877 !important;
+}
+input[type="text"] {
+  border: none;
+  width: 180px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 15px;
+  color: #fff;
+  border-bottom: 1px solid #3d4877;
+  outline: none;
+  padding-bottom: 5px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+input[type="tel"] {
+  border: none;
+  width: 180px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 15px;
+  color: #fff;
+  border-bottom: 1px solid #3d4877;
+  outline: none;
+  padding-bottom: 5px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+input[type="email"] {
+  border: none;
+  width: 180px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 15px;
+  color: #fff;
+  border-bottom: 1px solid #3d4877;
+  outline: none;
+  padding-bottom: 5px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+textarea {
+  border: none;
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+  resize: none;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 15px;
+  color: #fff;
+  border-bottom: 1px solid #3d4877;
+  padding-bottom: 25px;
+  outline: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+input[type="submit"] {
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0);
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  width: 185px;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 25px;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background: #ffffff;
+  color: #0d2353;
+}
+.wrapper-content {
+  text-align: center;
+  padding-top: 20px;
+}
+.wrapper-content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-left: 90px;
+  font-size: 50px;
+  word-wrap: break-word;
+}
+.wrapper-content h4 {
+  color: #0d2353;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.box {
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 480px) {
+  .wrapper-content h1 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .wrapper-content h1 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .wrapper-content h1 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .wrapper-content h1 {
+    padding-left: 75px;
+  }
+}
